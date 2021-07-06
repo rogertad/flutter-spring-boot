@@ -18,7 +18,6 @@ import javax.persistence.Table;
 public class User {
     @Id
     @GeneratedValue
-    
     private int id;
     private String name;
     private String email;
